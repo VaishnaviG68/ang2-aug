@@ -10,6 +10,7 @@ var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var app_component_1 = require("./app.component");
 var book_component_1 = require("./book.component");
+var order_list_component_1 = require("./orders/order-list.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -20,7 +21,8 @@ var AppModule = (function () {
             ],
             declarations: [
                 app_component_1.AppComponent,
-                book_component_1.BookComponent
+                book_component_1.BookComponent,
+                order_list_component_1.OrderListComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         })

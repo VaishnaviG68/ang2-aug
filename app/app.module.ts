@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {AppComponent}  from './app.component';
 import {BookComponent} from  './book.component';
+import {OrderListComponent} from './orders/order-list.component';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import {BookComponent} from  './book.component';
   ],
   declarations: [
   AppComponent,
-  BookComponent  
+  BookComponent,
+  OrderListComponent
   ],
   bootstrap: [ AppComponent ]
 })
