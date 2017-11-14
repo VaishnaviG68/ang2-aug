@@ -13,7 +13,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'pm-app',
-            template: "<div><h1>This is a baisc html</h1>\n\t<book-app></book-app>\n\t<pm-orders></pm-orders>\n</div>"
+            template: "<div><h1>Angular 2 </h1>\n\t<book-app></book-app>\n\t<pm-orders></pm-orders>\n</div>"
         })
     ], AppComponent);
     return AppComponent;
